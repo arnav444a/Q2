@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7579003431103770114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7579003431103770116}
+  - component: {fileID: 7579003431103770117}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7579003431103770116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7579003431103770114}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.211124, y: -2.3778343, z: -21.499609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7579003431103770117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7579003431103770114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7afa0e5a5dec88d49949da176da1bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Hover
+    clip: {fileID: 8300000, guid: 0f2f5c4de7c36b7478d1d6d382c65bf9, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 0f2f5c4de7c36b7478d1d6d382c65bf9, type: 3}
+    volume: 1
+    pitch: 0.72
+    loop: 0
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: b3406c0efd5e74240885031b5bdc7a99, type: 3}
+    volume: 0.5
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: GravityChange
+    clip: {fileID: 8300000, guid: 053e8c4c6942ee747ba755c8e01a9886, type: 3}
+    volume: 0.5
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 8911525e92642b34da62d6883db9987b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: f0b7abbafb833f74f913840201dbe6f9, type: 3}
+    volume: 0.5
+    pitch: 1.69
+    loop: 0
+    source: {fileID: 0}
+  - name: PreviewSong
+    clip: {fileID: 8300000, guid: f783760560f02924e9267f7a0cd04aa3, type: 3}
+    volume: 0.5
+    pitch: 1.69
+    loop: 0
+    source: {fileID: 0}
+  - name: LightFlicker
+    clip: {fileID: 8300000, guid: 28005f0580067ec4988722ce8b502749, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LastFlicker
+    clip: {fileID: 8300000, guid: cce5ee78848dde2408c6376ddfceb4fe, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LastFlicker
+    clip: {fileID: 8300000, guid: cce5ee78848dde2408c6376ddfceb4fe, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Line1
+    clip: {fileID: 8300000, guid: bc30a3361bd54d54db6e79d24ca3cb52, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Line2
+    clip: {fileID: 8300000, guid: c2013e16c8d33b6438eb39c308fbc5b3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Line3
+    clip: {fileID: 8300000, guid: 98cc16f42e6c39b45af53e27380621bf, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Line4
+    clip: {fileID: 8300000, guid: 9484a72c1adea134aace3876ff5a60c9, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Line5
+    clip: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Line6
+    clip: {fileID: 8300000, guid: 8a05d59e30869f54a866aacdb67d56c4, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Line63
+    clip: {fileID: 8300000, guid: fb5c6ba2005e6d549ac73092238b04e4, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Line61
+    clip: {fileID: 8300000, guid: a14d132c4f9d9d748bce2e64ca85aa7a, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Line62
+    clip: {fileID: 8300000, guid: 5371530abe5c6d443b9e17d66c50f7c5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
